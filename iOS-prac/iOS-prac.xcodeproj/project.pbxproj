@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,12 @@
 		FC25CA64268CCAFA0099057E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC25CA62268CCAFA0099057E /* Main.storyboard */; };
 		FC25CA66268CCAFC0099057E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC25CA65268CCAFC0099057E /* Assets.xcassets */; };
 		FC25CA69268CCAFC0099057E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC25CA67268CCAFC0099057E /* LaunchScreen.storyboard */; };
+		FCE2D18F268CCFA100962848 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D18E268CCFA100962848 /* PagingViewController.swift */; };
+		FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D190268CE72200962848 /* PagingCollectionViewCell.swift */; };
+		FCE2D193268CEA1800962848 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D192268CEA1800962848 /* PageCollectionViewCell.swift */; };
+		FCE2D197268CF0B500962848 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D196268CF0B500962848 /* FirstViewController.swift */; };
+		FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D198268CF0C800962848 /* SecondViewController.swift */; };
+		FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D19A268CF0D500962848 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		FC25CA65268CCAFC0099057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC25CA68268CCAFC0099057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC25CA6A268CCAFC0099057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE2D18E268CCFA100962848 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		FCE2D190268CE72200962848 /* PagingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCE2D192268CEA1800962848 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCE2D196268CF0B500962848 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		FCE2D198268CF0C800962848 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FCE2D19A268CF0D500962848 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +68,6 @@
 				17464B232E91ABF017C747E0 /* Pods-iOS-prac.debug.xcconfig */,
 				77758BBBC4026ACA327184CB /* Pods-iOS-prac.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +92,7 @@
 		FC25CA5B268CCAFA0099057E /* iOS-prac */ = {
 			isa = PBXGroup;
 			children = (
+				FCE2D194268CEA1D00962848 /* MyWriting */,
 				FC25CA5C268CCAFA0099057E /* AppDelegate.swift */,
 				FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */,
 				FC25CA60268CCAFA0099057E /* ViewController.swift */,
@@ -90,6 +102,27 @@
 				FC25CA6A268CCAFC0099057E /* Info.plist */,
 			);
 			path = "iOS-prac";
+			sourceTree = "<group>";
+		};
+		FCE2D194268CEA1D00962848 /* MyWriting */ = {
+			isa = PBXGroup;
+			children = (
+				FCE2D192268CEA1800962848 /* PageCollectionViewCell.swift */,
+				FCE2D18E268CCFA100962848 /* PagingViewController.swift */,
+				FCE2D190268CE72200962848 /* PagingCollectionViewCell.swift */,
+				FCE2D195268CED6800962848 /* ChildViewController */,
+			);
+			path = MyWriting;
+			sourceTree = "<group>";
+		};
+		FCE2D195268CED6800962848 /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCE2D196268CF0B500962848 /* FirstViewController.swift */,
+				FCE2D198268CF0C800962848 /* SecondViewController.swift */,
+				FCE2D19A268CF0D500962848 /* ThirdViewController.swift */,
+			);
+			path = ChildViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,9 +239,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */,
+				FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */,
 				FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */,
 				FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */,
+				FCE2D18F268CCFA100962848 /* PagingViewController.swift in Sources */,
+				FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */,
 				FC25CA5F268CCAFA0099057E /* SceneDelegate.swift in Sources */,
+				FCE2D193268CEA1800962848 /* PageCollectionViewCell.swift in Sources */,
+				FCE2D197268CF0B500962848 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
