@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8845D2831BA7BEDA4A17245 /* Pods_iOS_prac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B166891F63966C40CFC569 /* Pods_iOS_prac.framework */; };
 		FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA5C268CCAFA0099057E /* AppDelegate.swift */; };
 		FC25CA5F268CCAFA0099057E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */; };
 		FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA60268CCAFA0099057E /* ViewController.swift */; };
@@ -16,12 +15,13 @@
 		FC26A8DA2700789300BFE85E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8D92700789300BFE85E /* Entity.swift */; };
 		FC26A8DC2700796000BFE85E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8DB2700796000BFE85E /* Repository.swift */; };
 		FC26A8DE27007AF300BFE85E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8DD27007AF300BFE85E /* Model.swift */; };
-		FC26A8E027007B1800BFE85E /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8DF27007B1800BFE85E /* Logic.swift */; };
 		FC2F17AD26A8291600305621 /* Day2FlashLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F17AA26A8291600305621 /* Day2FlashLightViewController.swift */; };
 		FC8370442701FA9800FFA616 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8370432701FA9800FFA616 /* Service.swift */; };
-		FC8370462701FAC300FFA616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8370452701FAC300FFA616 /* ViewController.swift */; };
 		FC8370492701FBA500FFA616 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC8370482701FBA500FFA616 /* RxCocoa */; };
 		FC83704B2701FBA500FFA616 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC83704A2701FBA500FFA616 /* RxSwift */; };
+		FC83704E2701FD7600FFA616 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = FC83704D2701FD7600FFA616 /* Then */; };
+		FC8370512701FE0A00FFA616 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC8370502701FE0A00FFA616 /* SnapKit */; };
+		FC8370532702031100FFA616 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8370522702031100FFA616 /* ViewModel.swift */; };
 		FCE2D18F268CCFA100962848 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D18E268CCFA100962848 /* PagingViewController.swift */; };
 		FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D190268CE72200962848 /* PagingCollectionViewCell.swift */; };
 		FCE2D193268CEA1800962848 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D192268CEA1800962848 /* PageCollectionViewCell.swift */; };
@@ -32,23 +32,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17464B232E91ABF017C747E0 /* Pods-iOS-prac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-prac.debug.xcconfig"; path = "Target Support Files/Pods-iOS-prac/Pods-iOS-prac.debug.xcconfig"; sourceTree = "<group>"; };
-		53B166891F63966C40CFC569 /* Pods_iOS_prac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_prac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77758BBBC4026ACA327184CB /* Pods-iOS-prac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-prac.release.xcconfig"; path = "Target Support Files/Pods-iOS-prac/Pods-iOS-prac.release.xcconfig"; sourceTree = "<group>"; };
 		FC25CA59268CCAFA0099057E /* iOS-prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC25CA5C268CCAFA0099057E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC25CA60268CCAFA0099057E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC25CA60268CCAFA0099057E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		FC25CA65268CCAFC0099057E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC25CA68268CCAFC0099057E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC25CA6A268CCAFC0099057E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC26A8D92700789300BFE85E /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		FC26A8DB2700796000BFE85E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		FC26A8DD27007AF300BFE85E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		FC26A8DF27007B1800BFE85E /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 		FC2F17AA26A8291600305621 /* Day2FlashLightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2FlashLightViewController.swift; sourceTree = "<group>"; };
 		FC8370432701FA9800FFA616 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		FC8370452701FAC300FFA616 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC8370522702031100FFA616 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		FCE2D18E268CCFA100962848 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 		FCE2D190268CE72200962848 /* PagingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewCell.swift; sourceTree = "<group>"; };
 		FCE2D192268CEA1800962848 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -65,37 +61,19 @@
 			files = (
 				FC83704B2701FBA500FFA616 /* RxSwift in Frameworks */,
 				FC8370492701FBA500FFA616 /* RxCocoa in Frameworks */,
-				F8845D2831BA7BEDA4A17245 /* Pods_iOS_prac.framework in Frameworks */,
+				FC83704E2701FD7600FFA616 /* Then in Frameworks */,
+				FC8370512701FE0A00FFA616 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08F28338D769B328233FC5C0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53B166891F63966C40CFC569 /* Pods_iOS_prac.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6088BB4E27BED4587D92E58F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17464B232E91ABF017C747E0 /* Pods-iOS-prac.debug.xcconfig */,
-				77758BBBC4026ACA327184CB /* Pods-iOS-prac.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		FC25CA50268CCAFA0099057E = {
 			isa = PBXGroup;
 			children = (
 				FC25CA5B268CCAFA0099057E /* iOS-prac */,
 				FC25CA5A268CCAFA0099057E /* Products */,
-				6088BB4E27BED4587D92E58F /* Pods */,
-				08F28338D769B328233FC5C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,12 +88,12 @@
 		FC25CA5B268CCAFA0099057E /* iOS-prac */ = {
 			isa = PBXGroup;
 			children = (
+				FCBE92F227077A9B005ECB63 /* MVVM-prac */,
 				FC26A8D82700757200BFE85E /* MVVM */,
 				FC2F17A926A8291600305621 /* Apophis */,
 				FCE2D194268CEA1D00962848 /* MyWriting */,
 				FC25CA5C268CCAFA0099057E /* AppDelegate.swift */,
 				FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */,
-				FC25CA60268CCAFA0099057E /* ViewController.swift */,
 				FC25CA65268CCAFC0099057E /* Assets.xcassets */,
 				FC25CA67268CCAFC0099057E /* LaunchScreen.storyboard */,
 				FC25CA6A268CCAFC0099057E /* Info.plist */,
@@ -129,9 +107,9 @@
 				FC26A8D92700789300BFE85E /* Entity.swift */,
 				FC26A8DB2700796000BFE85E /* Repository.swift */,
 				FC26A8DD27007AF300BFE85E /* Model.swift */,
-				FC26A8DF27007B1800BFE85E /* Logic.swift */,
+				FC8370522702031100FFA616 /* ViewModel.swift */,
 				FC8370432701FA9800FFA616 /* Service.swift */,
-				FC8370452701FAC300FFA616 /* ViewController.swift */,
+				FC25CA60268CCAFA0099057E /* ViewController.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -143,6 +121,13 @@
 				FCED22FD26AAAF3300275701 /* Day3FlashLightViewController.swift */,
 			);
 			path = Apophis;
+			sourceTree = "<group>";
+		};
+		FCBE92F227077A9B005ECB63 /* MVVM-prac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "MVVM-prac";
 			sourceTree = "<group>";
 		};
 		FCE2D194268CEA1D00962848 /* MyWriting */ = {
@@ -173,11 +158,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC25CA6D268CCAFC0099057E /* Build configuration list for PBXNativeTarget "iOS-prac" */;
 			buildPhases = (
-				D86B83A50EE81E0B2B93690B /* [CP] Check Pods Manifest.lock */,
 				FC25CA55268CCAFA0099057E /* Sources */,
 				FC25CA56268CCAFA0099057E /* Frameworks */,
 				FC25CA57268CCAFA0099057E /* Resources */,
-				7B700AA7E0CEAD221A4F18C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +170,8 @@
 			packageProductDependencies = (
 				FC8370482701FBA500FFA616 /* RxCocoa */,
 				FC83704A2701FBA500FFA616 /* RxSwift */,
+				FC83704D2701FD7600FFA616 /* Then */,
+				FC8370502701FE0A00FFA616 /* SnapKit */,
 			);
 			productName = "iOS-prac";
 			productReference = FC25CA59268CCAFA0099057E /* iOS-prac.app */;
@@ -217,6 +202,8 @@
 			mainGroup = FC25CA50268CCAFA0099057E;
 			packageReferences = (
 				FC8370472701FBA500FFA616 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FC83704C2701FD7600FFA616 /* XCRemoteSwiftPackageReference "Then" */,
+				FC83704F2701FE0A00FFA616 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = FC25CA5A268CCAFA0099057E /* Products */;
 			projectDirPath = "";
@@ -239,63 +226,20 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7B700AA7E0CEAD221A4F18C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-prac/Pods-iOS-prac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS-prac/Pods-iOS-prac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-prac/Pods-iOS-prac-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D86B83A50EE81E0B2B93690B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS-prac-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		FC25CA55268CCAFA0099057E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FCED22FE26AAAF3300275701 /* Day3FlashLightViewController.swift in Sources */,
-				FC26A8E027007B1800BFE85E /* Logic.swift in Sources */,
 				FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */,
 				FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */,
 				FC26A8DC2700796000BFE85E /* Repository.swift in Sources */,
 				FC2F17AD26A8291600305621 /* Day2FlashLightViewController.swift in Sources */,
 				FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */,
+				FC8370532702031100FFA616 /* ViewModel.swift in Sources */,
 				FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */,
 				FC26A8DE27007AF300BFE85E /* Model.swift in Sources */,
-				FC8370462701FAC300FFA616 /* ViewController.swift in Sources */,
 				FC8370442701FA9800FFA616 /* Service.swift in Sources */,
 				FCE2D18F268CCFA100962848 /* PagingViewController.swift in Sources */,
 				FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */,
@@ -438,7 +382,6 @@
 		};
 		FC25CA6E268CCAFC0099057E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17464B232E91ABF017C747E0 /* Pods-iOS-prac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,7 +401,6 @@
 		};
 		FC25CA6F268CCAFC0099057E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77758BBBC4026ACA327184CB /* Pods-iOS-prac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +450,22 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		FC83704C2701FD7600FFA616 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FC83704F2701FE0A00FFA616 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -520,6 +478,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC8370472701FBA500FFA616 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		FC83704D2701FD7600FFA616 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC83704C2701FD7600FFA616 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		FC8370502701FE0A00FFA616 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC83704F2701FE0A00FFA616 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
