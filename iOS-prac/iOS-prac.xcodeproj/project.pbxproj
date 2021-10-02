@@ -29,6 +29,11 @@
 		FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D198268CF0C800962848 /* SecondViewController.swift */; };
 		FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D19A268CF0D500962848 /* ThirdViewController.swift */; };
 		FCED22FE26AAAF3300275701 /* Day3FlashLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED22FD26AAAF3300275701 /* Day3FlashLightViewController.swift */; };
+		FCF93C6E2708671800E6759B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C6D2708671800E6759B /* Article.swift */; };
+		FCF93C702708694700E6759B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C6F2708694700E6759B /* WebService.swift */; };
+		FCF93C7227086F0F00E6759B /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */; };
+		FCF93C74270875C200E6759B /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C73270875C200E6759B /* NewsListTableViewController.swift */; };
+		FCF93C76270875F200E6759B /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		FCE2D198268CF0C800962848 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FCE2D19A268CF0D500962848 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		FCED22FD26AAAF3300275701 /* Day3FlashLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3FlashLightViewController.swift; sourceTree = "<group>"; };
+		FCF93C6D2708671800E6759B /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		FCF93C6F2708694700E6759B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		FCF93C73270875C200E6759B /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +98,7 @@
 		FC25CA5B268CCAFA0099057E /* iOS-prac */ = {
 			isa = PBXGroup;
 			children = (
-				FCBE92F227077A9B005ECB63 /* MVVM-prac */,
+				FCBE92F227077A9B005ECB63 /* MVVM_Prac_GoodNews */,
 				FC26A8D82700757200BFE85E /* MVVM */,
 				FC2F17A926A8291600305621 /* Apophis */,
 				FCE2D194268CEA1D00962848 /* MyWriting */,
@@ -123,11 +133,16 @@
 			path = Apophis;
 			sourceTree = "<group>";
 		};
-		FCBE92F227077A9B005ECB63 /* MVVM-prac */ = {
+		FCBE92F227077A9B005ECB63 /* MVVM_Prac_GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				FCF93C6A2708664B00E6759B /* Models */,
+				FCF93C6B2708665400E6759B /* Services */,
+				FCF93C692708662800E6759B /* ViewModels */,
+				FCF93C6C2708666100E6759B /* Controllers */,
+				FCF93C682708661300E6759B /* Cells */,
 			);
-			path = "MVVM-prac";
+			path = MVVM_Prac_GoodNews;
 			sourceTree = "<group>";
 		};
 		FCE2D194268CEA1D00962848 /* MyWriting */ = {
@@ -149,6 +164,46 @@
 				FCE2D19A268CF0D500962848 /* ThirdViewController.swift */,
 			);
 			path = ChildViewController;
+			sourceTree = "<group>";
+		};
+		FCF93C682708661300E6759B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FCF93C692708662800E6759B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCF93C6A2708664B00E6759B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCF93C6D2708671800E6759B /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FCF93C6B2708665400E6759B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FCF93C6F2708694700E6759B /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FCF93C6C2708666100E6759B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCF93C73270875C200E6759B /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,12 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF93C702708694700E6759B /* WebService.swift in Sources */,
 				FCED22FE26AAAF3300275701 /* Day3FlashLightViewController.swift in Sources */,
 				FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */,
+				FCF93C7227086F0F00E6759B /* ArticleListViewModel.swift in Sources */,
 				FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */,
 				FC26A8DC2700796000BFE85E /* Repository.swift in Sources */,
 				FC2F17AD26A8291600305621 /* Day2FlashLightViewController.swift in Sources */,
 				FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */,
+				FCF93C74270875C200E6759B /* NewsListTableViewController.swift in Sources */,
 				FC8370532702031100FFA616 /* ViewModel.swift in Sources */,
 				FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */,
 				FC26A8DE27007AF300BFE85E /* Model.swift in Sources */,
@@ -245,7 +303,9 @@
 				FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */,
 				FC26A8DA2700789300BFE85E /* Entity.swift in Sources */,
 				FC25CA5F268CCAFA0099057E /* SceneDelegate.swift in Sources */,
+				FCF93C6E2708671800E6759B /* Article.swift in Sources */,
 				FCE2D193268CEA1800962848 /* PageCollectionViewCell.swift in Sources */,
+				FCF93C76270875F200E6759B /* ArticleTableViewCell.swift in Sources */,
 				FCE2D197268CF0B500962848 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
