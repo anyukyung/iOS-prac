@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC12B0532713641400407B7C /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12B0522713641400407B7C /* ArticleService.swift */; };
 		FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA5C268CCAFA0099057E /* AppDelegate.swift */; };
 		FC25CA5F268CCAFA0099057E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */; };
 		FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC25CA60268CCAFA0099057E /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		FC26A8DC2700796000BFE85E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8DB2700796000BFE85E /* Repository.swift */; };
 		FC26A8DE27007AF300BFE85E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26A8DD27007AF300BFE85E /* Model.swift */; };
 		FC2F17AD26A8291600305621 /* Day2FlashLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F17AA26A8291600305621 /* Day2FlashLightViewController.swift */; };
+		FC34C1072711E8170035D6D2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34C1062711E8170035D6D2 /* RootViewController.swift */; };
+		FC34C10B2711EBD30035D6D2 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34C10A2711EBD30035D6D2 /* Coordinator.swift */; };
+		FC34C10E2711EF080035D6D2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FC34C10D2711EF080035D6D2 /* Alamofire */; };
+		FC34C1132711F4BE0035D6D2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34C1122711F4BE0035D6D2 /* Article.swift */; };
 		FC8370442701FA9800FFA616 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8370432701FA9800FFA616 /* Service.swift */; };
 		FC8370492701FBA500FFA616 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FC8370482701FBA500FFA616 /* RxCocoa */; };
 		FC83704B2701FBA500FFA616 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FC83704A2701FBA500FFA616 /* RxSwift */; };
@@ -28,15 +33,15 @@
 		FCE2D197268CF0B500962848 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D196268CF0B500962848 /* FirstViewController.swift */; };
 		FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D198268CF0C800962848 /* SecondViewController.swift */; };
 		FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2D19A268CF0D500962848 /* ThirdViewController.swift */; };
+		FCEAAFAD2713FDE000D1A6C7 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEAAFAC2713FDE000D1A6C7 /* RootViewModel.swift */; };
+		FCEAAFB02714386A00D1A6C7 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEAAFAF2714386A00D1A6C7 /* ArticleCell.swift */; };
+		FCEAAFB3271438D200D1A6C7 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FCEAAFB2271438D200D1A6C7 /* SDWebImage */; };
+		FCEAAFB52714395800D1A6C7 /* AriticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEAAFB42714395800D1A6C7 /* AriticleViewModel.swift */; };
 		FCED22FE26AAAF3300275701 /* Day3FlashLightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCED22FD26AAAF3300275701 /* Day3FlashLightViewController.swift */; };
-		FCF93C6E2708671800E6759B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C6D2708671800E6759B /* Article.swift */; };
-		FCF93C702708694700E6759B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C6F2708694700E6759B /* WebService.swift */; };
-		FCF93C7227086F0F00E6759B /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */; };
-		FCF93C74270875C200E6759B /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C73270875C200E6759B /* NewsListTableViewController.swift */; };
-		FCF93C76270875F200E6759B /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC12B0522713641400407B7C /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		FC25CA59268CCAFA0099057E /* iOS-prac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-prac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC25CA5C268CCAFA0099057E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC25CA5E268CCAFA0099057E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +53,9 @@
 		FC26A8DB2700796000BFE85E /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		FC26A8DD27007AF300BFE85E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FC2F17AA26A8291600305621 /* Day2FlashLightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day2FlashLightViewController.swift; sourceTree = "<group>"; };
+		FC34C1062711E8170035D6D2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FC34C10A2711EBD30035D6D2 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FC34C1122711F4BE0035D6D2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		FC8370432701FA9800FFA616 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		FC8370522702031100FFA616 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		FCE2D18E268CCFA100962848 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
@@ -56,12 +64,10 @@
 		FCE2D196268CF0B500962848 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		FCE2D198268CF0C800962848 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FCE2D19A268CF0D500962848 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		FCEAAFAC2713FDE000D1A6C7 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		FCEAAFAF2714386A00D1A6C7 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		FCEAAFB42714395800D1A6C7 /* AriticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriticleViewModel.swift; sourceTree = "<group>"; };
 		FCED22FD26AAAF3300275701 /* Day3FlashLightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3FlashLightViewController.swift; sourceTree = "<group>"; };
-		FCF93C6D2708671800E6759B /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		FCF93C6F2708694700E6759B /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
-		FCF93C73270875C200E6759B /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
-		FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEAAFB3271438D200D1A6C7 /* SDWebImage in Frameworks */,
+				FC34C10E2711EF080035D6D2 /* Alamofire in Frameworks */,
 				FC83704B2701FBA500FFA616 /* RxSwift in Frameworks */,
 				FC8370492701FBA500FFA616 /* RxCocoa in Frameworks */,
 				FC83704E2701FD7600FFA616 /* Then in Frameworks */,
@@ -79,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC12B051271363F900407B7C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FC12B0522713641400407B7C /* ArticleService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		FC25CA50268CCAFA0099057E = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +114,8 @@
 		FC25CA5B268CCAFA0099057E /* iOS-prac */ = {
 			isa = PBXGroup;
 			children = (
-				FCBE92F227077A9B005ECB63 /* MVVM_Prac_GoodNews */,
+				FC34C1042711E78B0035D6D2 /* MVVMRxSwiftTutorial */,
+				FCF93C7727087C3B00E6759B /* EveryBody */,
 				FC26A8D82700757200BFE85E /* MVVM */,
 				FC2F17A926A8291600305621 /* Apophis */,
 				FCE2D194268CEA1D00962848 /* MyWriting */,
@@ -133,16 +150,33 @@
 			path = Apophis;
 			sourceTree = "<group>";
 		};
-		FCBE92F227077A9B005ECB63 /* MVVM_Prac_GoodNews */ = {
+		FC34C1042711E78B0035D6D2 /* MVVMRxSwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				FCF93C6A2708664B00E6759B /* Models */,
-				FCF93C6B2708665400E6759B /* Services */,
-				FCF93C692708662800E6759B /* ViewModels */,
-				FCF93C6C2708666100E6759B /* Controllers */,
-				FCF93C682708661300E6759B /* Cells */,
+				FCEAAFAE271437D600D1A6C7 /* Views */,
+				FCEAAFAB2713FDCD00D1A6C7 /* ViewModel */,
+				FC12B051271363F900407B7C /* Service */,
+				FC34C1112711F4B30035D6D2 /* Models */,
+				FC34C1052711E7FB0035D6D2 /* Controllers */,
+				FC34C10A2711EBD30035D6D2 /* Coordinator.swift */,
 			);
-			path = MVVM_Prac_GoodNews;
+			path = MVVMRxSwiftTutorial;
+			sourceTree = "<group>";
+		};
+		FC34C1052711E7FB0035D6D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC34C1062711E8170035D6D2 /* RootViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FC34C1112711F4B30035D6D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC34C1122711F4BE0035D6D2 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		FCE2D194268CEA1D00962848 /* MyWriting */ = {
@@ -166,44 +200,28 @@
 			path = ChildViewController;
 			sourceTree = "<group>";
 		};
-		FCF93C682708661300E6759B /* Cells */ = {
+		FCEAAFAB2713FDCD00D1A6C7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				FCF93C75270875F200E6759B /* ArticleTableViewCell.swift */,
+				FCEAAFAC2713FDE000D1A6C7 /* RootViewModel.swift */,
+				FCEAAFB42714395800D1A6C7 /* AriticleViewModel.swift */,
 			);
-			path = Cells;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		FCF93C692708662800E6759B /* ViewModels */ = {
+		FCEAAFAE271437D600D1A6C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FCF93C7127086F0F00E6759B /* ArticleListViewModel.swift */,
+				FCEAAFAF2714386A00D1A6C7 /* ArticleCell.swift */,
 			);
-			path = ViewModels;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		FCF93C6A2708664B00E6759B /* Models */ = {
+		FCF93C7727087C3B00E6759B /* EveryBody */ = {
 			isa = PBXGroup;
 			children = (
-				FCF93C6D2708671800E6759B /* Article.swift */,
 			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		FCF93C6B2708665400E6759B /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				FCF93C6F2708694700E6759B /* WebService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		FCF93C6C2708666100E6759B /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				FCF93C73270875C200E6759B /* NewsListTableViewController.swift */,
-			);
-			path = Controllers;
+			name = EveryBody;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +245,8 @@
 				FC83704A2701FBA500FFA616 /* RxSwift */,
 				FC83704D2701FD7600FFA616 /* Then */,
 				FC8370502701FE0A00FFA616 /* SnapKit */,
+				FC34C10D2711EF080035D6D2 /* Alamofire */,
+				FCEAAFB2271438D200D1A6C7 /* SDWebImage */,
 			);
 			productName = "iOS-prac";
 			productReference = FC25CA59268CCAFA0099057E /* iOS-prac.app */;
@@ -259,6 +279,8 @@
 				FC8370472701FBA500FFA616 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				FC83704C2701FD7600FFA616 /* XCRemoteSwiftPackageReference "Then" */,
 				FC83704F2701FE0A00FFA616 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FC34C10C2711EF080035D6D2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FCEAAFB1271438D200D1A6C7 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = FC25CA5A268CCAFA0099057E /* Products */;
 			projectDirPath = "";
@@ -286,26 +308,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF93C702708694700E6759B /* WebService.swift in Sources */,
 				FCED22FE26AAAF3300275701 /* Day3FlashLightViewController.swift in Sources */,
 				FCE2D199268CF0C800962848 /* SecondViewController.swift in Sources */,
-				FCF93C7227086F0F00E6759B /* ArticleListViewModel.swift in Sources */,
 				FCE2D19B268CF0D500962848 /* ThirdViewController.swift in Sources */,
 				FC26A8DC2700796000BFE85E /* Repository.swift in Sources */,
 				FC2F17AD26A8291600305621 /* Day2FlashLightViewController.swift in Sources */,
 				FC25CA61268CCAFA0099057E /* ViewController.swift in Sources */,
-				FCF93C74270875C200E6759B /* NewsListTableViewController.swift in Sources */,
 				FC8370532702031100FFA616 /* ViewModel.swift in Sources */,
 				FC25CA5D268CCAFA0099057E /* AppDelegate.swift in Sources */,
 				FC26A8DE27007AF300BFE85E /* Model.swift in Sources */,
 				FC8370442701FA9800FFA616 /* Service.swift in Sources */,
+				FCEAAFB02714386A00D1A6C7 /* ArticleCell.swift in Sources */,
 				FCE2D18F268CCFA100962848 /* PagingViewController.swift in Sources */,
+				FC34C1072711E8170035D6D2 /* RootViewController.swift in Sources */,
 				FCE2D191268CE72200962848 /* PagingCollectionViewCell.swift in Sources */,
 				FC26A8DA2700789300BFE85E /* Entity.swift in Sources */,
+				FC34C10B2711EBD30035D6D2 /* Coordinator.swift in Sources */,
 				FC25CA5F268CCAFA0099057E /* SceneDelegate.swift in Sources */,
-				FCF93C6E2708671800E6759B /* Article.swift in Sources */,
+				FC34C1132711F4BE0035D6D2 /* Article.swift in Sources */,
+				FCEAAFAD2713FDE000D1A6C7 /* RootViewModel.swift in Sources */,
+				FC12B0532713641400407B7C /* ArticleService.swift in Sources */,
+				FCEAAFB52714395800D1A6C7 /* AriticleViewModel.swift in Sources */,
 				FCE2D193268CEA1800962848 /* PageCollectionViewCell.swift in Sources */,
-				FCF93C76270875F200E6759B /* ArticleTableViewCell.swift in Sources */,
 				FCE2D197268CF0B500962848 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +526,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		FC34C10C2711EF080035D6D2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		FC8370472701FBA500FFA616 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
@@ -526,9 +558,22 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		FCEAAFB1271438D200D1A6C7 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FC34C10D2711EF080035D6D2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC34C10C2711EF080035D6D2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		FC8370482701FBA500FFA616 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FC8370472701FBA500FFA616 /* XCRemoteSwiftPackageReference "RxSwift" */;
@@ -548,6 +593,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC83704F2701FE0A00FFA616 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		FCEAAFB2271438D200D1A6C7 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCEAAFB1271438D200D1A6C7 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
